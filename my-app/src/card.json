@@ -1,0 +1,214 @@
+{
+  "data": [
+    {
+      "account_type": "k12",
+      "groups": [
+        {
+          "Pre-K (ages 3-4)": "prek"
+        },
+        {
+          "Elementary (ages 5-10)": "elementary"
+        },
+        {
+          "Middle school (ages 11-13)": "middle_school"
+        },
+        {
+          "High school (ages 14-18)": "high_school"
+        }
+      ],
+      "domains": [
+        {
+          "All": "all"
+        },
+        {
+          "STEM": "stem"
+        },
+        {
+          "Arts": "arts"
+        },
+        {
+          "Communications": "comm"
+        },
+        {
+          "Computer Science": "computerscience"
+        },
+        {
+          "World Languages": "worldlanguages"
+        },
+        {
+          "English/Language Arts": "languagearts"
+        },
+        {
+          "American Sign Language": "asl"
+        },
+        {
+          "Science": "science"
+        },
+        {
+          "Technology": "technology"
+        },
+        {
+          "Engineering": "engineering"
+        },
+        {
+          "Math": "math"
+        },
+        {
+          "History and Social Studies": "hostoryandsocialstudies"
+        },
+        {
+          "Health/Physical Education": "health_physical_education"
+        },
+        {
+          "English as a Second Language": "esl"
+        },
+        {
+          "Other": "other"
+        }
+      ]
+    },
+    {
+      "account_type": "highered",
+      "groups": [
+        {
+          "University/College": "university"
+        }
+      ],
+      "domains": [
+        {
+          "All": "all"
+        },
+        {
+          "Agriculture": "agriculture"
+        },
+        {
+          "Architecture and Planning": "architectureandplanning"
+        },
+        {
+          "Arts (Visual, Performing, and Music)": "arts"
+        },
+        {
+          "Biological Sciences": "biologicalsciences"
+        },
+        {
+          "Business": "business"
+        },
+        {
+          "Communications and Journalism": "communicationsandjournalism"
+        },
+        {
+          "Computer and Information Sciences": "computerandinformationsciences"
+        },
+        {
+          "Design and Applied Arts": "designandappliedarts"
+        },
+        {
+          "Education": "education"
+        },
+        {
+          "Engineering": "engineering"
+        },
+        {
+          "English Language and Literature": "englishlanguageandliteracy"
+        },
+        {
+          "Environmental Sciences": "environmentalsciences"
+        },
+        {
+          "Health Care": "healthcare"
+        },
+        {
+          "History": "history"
+        },
+        {
+          "Languages, Literatures, and Linguistics": "languagesliteratureslinguistics"
+        },
+        {
+          "Law and Legal Studies": "lawandlegalstudies"
+        },
+        {
+          "Mathematics and Statistics": "mathematicsandstatistics"
+        },
+        {
+          "Mechanics and Repair": "mechanicsandrepair"
+        },
+        {
+          "Military, Security, and Protective Services": "militarysecurityandprotectiveservices"
+        },
+        {
+          "Natural Resources and Conservation": "naturalresourcesandconservation"
+        },
+        {
+          "Philosophy and Religion": "philosophyandreligion"
+        },
+        {
+          "Physical Sciences": "physicalsciences"
+        },
+        {
+          "Psychology and Counseling": "psychologyandcounseling"
+        },
+        {
+          "Recreation and Fitness": "recreationandfitness"
+        },
+        {
+          "Skilled Trades and Construction": "skilledtradesandconstruction"
+        },
+        {
+          "Social Sciences and Liberal Arts": "socialsciencesandliberalarts"
+        },
+        {
+          "Social Services": "socialservices"
+        },
+        {
+          "Transportation": "transportation"
+        },
+        {
+          "Other": "other"
+        }
+      ]
+    },
+    {
+      "account_type": "organization",
+      "groups": [
+        {
+          "Organization/Corporate": "organization"
+        }
+      ],
+      "domains": null
+    },
+    {
+      "account_type": "other",
+      "groups": [
+        {
+          "Librarian": "librarian"
+        },
+        {
+          "Technology/Instructional Coach": "tech_coach"
+        }
+      ],
+      "domains": [
+        {
+          "All K12": "k12_all"
+        },
+        {
+          "Pre-K (ages 3-4)": "prek"
+        },
+        {
+          "Elementary (ages 5-10)": "elementary"
+        },
+        {
+          "Middle school (ages 11-13)": "middle_school"
+        },
+        {
+          "High school (ages 14-18)": "high_school"
+        },
+        {
+          "University/College": "university"
+        },
+        {
+          "Organization/Corporate": "organization"
+        }
+      ]
+    }
+  ]
+}
