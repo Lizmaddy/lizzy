@@ -1,214 +1,270 @@
 {
-  "data": [
+  "data": 
     {
-      "account_type": "k12",
-      "groups": [
-        {
-          "Pre-K (ages 3-4)": "prek"
-        },
-        {
-          "Elementary (ages 5-10)": "elementary"
-        },
-        {
-          "Middle school (ages 11-13)": "middle_school"
-        },
-        {
-          "High school (ages 14-18)": "high_school"
-        }
-      ],
-      "domains": [
-        {
-          "All": "all"
-        },
-        {
-          "STEM": "stem"
-        },
-        {
-          "Arts": "arts"
-        },
-        {
-          "Communications": "comm"
-        },
-        {
-          "Computer Science": "computerscience"
-        },
-        {
-          "World Languages": "worldlanguages"
-        },
-        {
-          "English/Language Arts": "languagearts"
-        },
-        {
-          "American Sign Language": "asl"
-        },
-        {
-          "Science": "science"
-        },
-        {
-          "Technology": "technology"
-        },
-        {
-          "Engineering": "engineering"
-        },
-        {
-          "Math": "math"
-        },
-        {
-          "History and Social Studies": "hostoryandsocialstudies"
-        },
-        {
-          "Health/Physical Education": "health_physical_education"
-        },
-        {
-          "English as a Second Language": "esl"
-        },
-        {
-          "Other": "other"
-        }
-      ]
-    },
-    {
-      "account_type": "highered",
-      "groups": [
-        {
-          "University/College": "university"
-        }
-      ],
-      "domains": [
-        {
-          "All": "all"
-        },
-        {
-          "Agriculture": "agriculture"
-        },
-        {
-          "Architecture and Planning": "architectureandplanning"
-        },
-        {
-          "Arts (Visual, Performing, and Music)": "arts"
-        },
-        {
-          "Biological Sciences": "biologicalsciences"
-        },
-        {
-          "Business": "business"
-        },
-        {
-          "Communications and Journalism": "communicationsandjournalism"
-        },
-        {
-          "Computer and Information Sciences": "computerandinformationsciences"
-        },
-        {
-          "Design and Applied Arts": "designandappliedarts"
-        },
-        {
-          "Education": "education"
-        },
-        {
-          "Engineering": "engineering"
-        },
-        {
-          "English Language and Literature": "englishlanguageandliteracy"
-        },
-        {
-          "Environmental Sciences": "environmentalsciences"
-        },
-        {
-          "Health Care": "healthcare"
-        },
-        {
-          "History": "history"
-        },
-        {
-          "Languages, Literatures, and Linguistics": "languagesliteratureslinguistics"
-        },
-        {
-          "Law and Legal Studies": "lawandlegalstudies"
-        },
-        {
-          "Mathematics and Statistics": "mathematicsandstatistics"
-        },
-        {
-          "Mechanics and Repair": "mechanicsandrepair"
-        },
-        {
-          "Military, Security, and Protective Services": "militarysecurityandprotectiveservices"
-        },
-        {
-          "Natural Resources and Conservation": "naturalresourcesandconservation"
-        },
-        {
-          "Philosophy and Religion": "philosophyandreligion"
-        },
-        {
-          "Physical Sciences": "physicalsciences"
-        },
-        {
-          "Psychology and Counseling": "psychologyandcounseling"
-        },
-        {
-          "Recreation and Fitness": "recreationandfitness"
-        },
-        {
-          "Skilled Trades and Construction": "skilledtradesandconstruction"
-        },
-        {
-          "Social Sciences and Liberal Arts": "socialsciencesandliberalarts"
-        },
-        {
-          "Social Services": "socialservices"
-        },
-        {
-          "Transportation": "transportation"
-        },
-        {
-          "Other": "other"
-        }
-      ]
-    },
-    {
-      "account_type": "organization",
-      "groups": [
-        {
-          "Organization/Corporate": "organization"
-        }
-      ],
-      "domains": null
-    },
-    {
-      "account_type": "other",
-      "groups": [
-        {
-          "Librarian": "librarian"
-        },
-        {
-          "Technology/Instructional Coach": "tech_coach"
-        }
-      ],
-      "domains": [
-        {
-          "All K12": "k12_all"
-        },
-        {
-          "Pre-K (ages 3-4)": "prek"
-        },
-        {
-          "Elementary (ages 5-10)": "elementary"
-        },
-        {
-          "Middle school (ages 11-13)": "middle_school"
-        },
-        {
-          "High school (ages 14-18)": "high_school"
-        },
-        {
-          "University/College": "university"
-        },
-        {
-          "Organization/Corporate": "organization"
-        }
-      ]
+    "0": 
+      {
+        "letter": "A",
+    
+        "word" : "Ant",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/a.jpg",
+      
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/a.wav"
+      },
+    "1": 
+      {
+        "letter": "B",
+    
+        "word" : "Bat",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/b.jpg",
+      
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/b.wav"
+      },
+    "2": 
+      {
+        "letter": "C",
+    
+        "word" : "Cat",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/c.jpg",
+      
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/c.wav"
+      }, 
+    "3": 
+      {
+        "letter": "D",
+    
+        "word" : "Dog",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/d.jpg",
+      
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/d.wav"
+      },
+    "4": 
+      {
+        "letter": "E",
+    
+        "word" : "Egg",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/e.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/e.wav"
+      },
+    "5": 
+      {
+        "letter": "F",
+    
+        "word" : "Fan",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/f.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/f.wav"
+      },
+    "6": 
+      {
+        "letter": "G",
+    
+        "word" : "Gum",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/g.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/g.wav"
+      },
+          "7": 
+      {
+        "letter": "H",
+    
+        "word" : "Hat",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/h.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/h.wav"
+      },
+    "8": 
+      {
+        "letter": "I",
+    
+        "word" : "Ivy",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/i.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/i.wav"
+      },
+    "9": 
+      {
+        "letter": "J",
+    
+        "word" : "Jet",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/j.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/j.wav"
+      },
+    "10": 
+      {
+        "letter": "K",
+    
+        "word" : "Key",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/k.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/k.wav"
+      },
+    "11": 
+      {
+        "letter": "L",
+    
+        "word" : "Log",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/l.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/l.wav"
+      },
+    "12": 
+      {
+        "letter": "M",
+    
+        "word" : "Map",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/m.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/m.wav"
+      },
+    "13": 
+      {
+        "letter": "N",
+    
+        "word" : "Nut",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/n.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/n.wav"
+      },
+    "14": 
+      {
+        "letter": "O",
+    
+        "word" : "Oil",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/o.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/o.wav"
+      },
+    "15": 
+      {
+        "letter": "P",
+    
+        "word" : "Paw",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/p.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/p.wav"
+      },
+    "16": 
+      {
+        "letter": "Q",
+    
+        "word" : "Queen",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/q.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/q.wav"
+      },
+    "17": 
+      {
+        "letter": "R",
+    
+        "word" : "Rat",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/r.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/r.wav"
+      },
+    "18": 
+      {
+        "letter": "S",
+    
+        "word" : "Sun",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/s.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/s.wav"
+      },
+    "19": 
+      {
+        "letter": "T",
+    
+        "word" : "Top",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/t.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/t.wav"
+      },
+    "20": 
+      {
+        "letter": "U",
+    
+        "word" : "Up",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/u.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/u.wav"
+      },
+   "21": 
+      {
+        "letter": "V",
+    
+        "word" : "Van",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/v.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/v.wav"
+      },
+   "22": 
+      {
+        "letter": "W",
+    
+        "word" : "Web",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/w.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/w.wav"
+      },
+   "23": 
+      {
+        "letter": "X",
+    
+        "word" : "fox",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/x.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/x.wav"
+      },
+   "24": 
+      {
+        "letter": "Y",
+    
+        "word" : "Yo-Yo",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/y.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/y.wav"
+      },
+   "25": 
+      {
+        "letter": "Z",
+    
+        "word" : "Zip",
+     
+        "image" : "https://netfiles.umn.edu/users/maddy012/letterimages/z.jpg",
+
+        "sound_short" : "https://netfiles.umn.edu/users/maddy012/lettersounds/z.wav"
+      }
+
+
+
+
     }
-  ]
+  
 }

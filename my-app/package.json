@@ -1,11 +1,13 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://lizzy.github.io/my-app",
+  "homepage": "https://lizmaddy.github.io/lizzy/",
   "private": true,
   "dependencies": {
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-router": "^4.0.0",
+    "react-sound": "^0.5.2"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0",
