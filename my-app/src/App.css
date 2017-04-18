@@ -52,10 +52,10 @@ h2 {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border: thin solid #c9dcdb;
+  border: thin solid #cdee31;
   border-radius: 100%;
   transition: all .1s ease-in-out;
-  background-color: #d4f3fb; 
+  background-color: #e8fa92; 
   color: #333;
   font-family: $font-medium;
   -webkit-font-smoothing: antialiased;
@@ -67,7 +67,7 @@ h2 {
 }
 .btn:hover {
   text-decoration: none;
-  background-color: #c9dcdb;
+  background-color: #cdee31;
 }
 .icon {
   text-align: right;
