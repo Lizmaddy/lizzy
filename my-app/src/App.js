@@ -56,7 +56,7 @@ class App extends Component {
           <div className="icon">
             <button
               type="button"
-              className="btn-link"
+              className="btn"
               aria-label="Play Sound"
               onClick={() => this.setState({ playSound: Sound.status.PLAYING })}
             >
@@ -80,7 +80,7 @@ class App extends Component {
             <div className="icon">
               <button
                 type="button"
-                className="btn-link"
+                className="btn"
                 aria-label="Flip Card"
                 onClick={this.handleChange}
                 // onClick={this.getLetter}
