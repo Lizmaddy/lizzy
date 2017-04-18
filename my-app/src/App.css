@@ -18,6 +18,7 @@ h2 {
 .card {
   margin: 0 auto;
   margin-top: 1em;
+  margin-bottom: 1em;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 45px -12px rgba(0,0,0,0.67);
   -moz-box-shadow: 0px 0px 45px -12px rgba(0,0,0,0.67);
@@ -26,8 +27,8 @@ h2 {
   width: 43em;
   position: relative;
   display: block;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
   text-align: center;
   background: url(https://netfiles.umn.edu/users/maddy012/letterimages/background2.jpg) no-repeat;
   background-size: cover;
@@ -36,8 +37,8 @@ h2 {
   max-width: 100%;
   max-height: 23em;
   opacity: .8;
-  -webkit-filter: drop-shadow(5px 5px 10px #222) contrast(150%) brightness(130%) sepia(153%);
-  filter: drop-shadow(5px 5px 10px #222) contrast(150%) brightness(130%) sepia(153%);
+  -webkit-filter: drop-shadow(5px 5px 10px #222) contrast(180%) brightness(110%) saturate(133%);
+  filter: drop-shadow(5px 5px 10px #222) contrast(180%) brightness(110%) saturate(133%);
 }
 .btn {
   display: inline-block;
@@ -55,7 +56,7 @@ h2 {
   border: thin solid #cdee31;
   border-radius: 100%;
   transition: all .1s ease-in-out;
-  background-color: #e8fa92; 
+  background-color: #ffea00; 
   color: #333;
   font-family: $font-medium;
   -webkit-font-smoothing: antialiased;
