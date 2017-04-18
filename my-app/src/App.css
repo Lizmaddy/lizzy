@@ -37,8 +37,8 @@ h2 {
   max-width: 100%;
   max-height: 23em;
   opacity: .8;
-  -webkit-filter: drop-shadow(5px 5px 10px #222) contrast(180%) brightness(110%) saturate(133%);
-  filter: drop-shadow(5px 5px 10px #222) contrast(180%) brightness(110%) saturate(133%);
+  -webkit-filter: drop-shadow(5px 5px 15px #8d8d8d) contrast(180%) brightness(110%) saturate(133%);
+  filter: drop-shadow(5px 5px 15px #8d8d8d) contrast(180%) brightness(110%) saturate(133%);
 }
 .btn {
   display: inline-block;
@@ -65,6 +65,9 @@ h2 {
   text-decoration: none;
   width: 5em;
   height: 5em;
+  -webkit-box-shadow: 0px 0px 45px -12px rgba(0,0,0,0.67);
+  -moz-box-shadow: 0px 0px 45px -12px rgba(0,0,0,0.67);
+  box-shadow: 0px 0px 45px -12px rgba(0,0,0,0.67);
 }
 .btn:hover {
   text-decoration: none;
