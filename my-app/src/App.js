@@ -8,22 +8,18 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    this.handleChange = this.handleChange.bind(this);
+    this.getLetter = this.getLetter.bind(this);
+    this.getLetter();
 
-    const ranNum = this.getLetter();
-    const card = cardData.data[ranNum];
-    const upperlower = this.getUpperLower();
+    // get flip in, re-set sound to stop after playing, get array working
+    this.getUpperLower();
+
 
     this.state = {
       playSound: Sound.status.STOPPED,
-      soundFile: card.sound_short,
-      letter: card.letter,
-      word: card.word,
-      image: card.image,
-      upperlower: upperlower,
-      array: '',
     };
   }
+
   // getInitialState() {
   //   return {
   //     array: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
@@ -38,21 +34,35 @@ class App extends Component {
     return 'lower';
   }
   getLetter (event) {
-    // console.log(this.state.array);
-    let num = Math.floor(Math.random() * (26));
+    let ranNum = Math.floor(Math.random() * (26));
+    // console.log(ranNum);
     // let num = Math.floor(Math.random() * this.state['array'].length);
-    return num;
+    let card = cardData.data[ranNum];
+
+    this.image = card.image;
+    this.soundFile = card.sound_short
+    this.letter = card.letter
+    this.word = card.word
+
+    let letterCase = Math.floor(Math.random() * (4));
+    if ( letterCase === 3 ) {
+        // console.log('i am 3'); Look @ TopicBody.js in Node - it has multiple returns in one file
+         this.case = 'upper';
+    } else {
+        this.case = 'lower';
+    }
+    // console.log(this.case);
+
+
+    return this.image, this.soundFile, this.letter, this.word, this.case;
   }
-  handleChange () {
-    // Router.refresh();
-    window.location.reload()
-  }
+
   render() {
-     
+    // let image = this.getLetter(); 
     return (
       <div className="App">
-        <div className="card-container">
-          <div className="card">
+        <div className="card-container flip-container">
+          <div className="card flipper">
           <div className="icon">
             <button
               type="button"
@@ -63,27 +73,29 @@ class App extends Component {
               <span className="fa fa-volume-up"></span>
             </button>
             <Sound 
-              url={this.state.soundFile}
+              url={this.soundFile}
               playStatus={this.state.playSound}       
             >
               
             </Sound>
           
           </div>
-            <h1 className={this.state.upperlower} >{this.state.letter}</h1>
+            <h1 className={this.case} >{this.letter}</h1>
             <img
               className="card-img"
-              src={this.state.image}
-              alt={this.state.word}
+              // src={this.state.image}
+              src={this.image}
+              alt={this.word}
             />
-            <h2 className={this.state.upperlower} >{this.state.word}</h2>
+            <h2 className={this.case} >{this.word}</h2>
             <div className="icon">
               <button
                 type="button"
                 className="btn"
                 aria-label="Flip Card"
-                onClick={this.handleChange}
+                // onClick={this.handleChange}
                 // onClick={this.getLetter}
+                onClick={() => this.setState({ image: this.getLetter() })}
               >
                 <span className="fa fa-share"></span>
               </button>
