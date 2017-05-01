@@ -170,7 +170,7 @@ class App extends Component {
                 // onClick={this.getLetter}
                 onClick={() => this.setState({ flip : this.handleClick() })}
               >
-                <span className="fa fa-share"></span>
+                <span className="fa fa-share mirror"></span>
               </button>
             </div>
           </div> 
