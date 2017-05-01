@@ -89,6 +89,20 @@ class App extends Component {
     // let image = this.getLetter(); 
     return (
       <div className="App">
+      <div className="next">
+       <p className="mb0">
+        <button
+          type="button"
+          className="btn nextbtn"
+          aria-label="Next Card"
+          // onClick={this.handleChange}
+          // onClick={this.getLetter}
+          onClick={() => this.setState({ image: this.getLetter() })}
+        >
+          <span className="fa fa-arrow-right"></span>
+        </button>
+        </p>
+      </div>
       <div className= {this.state.iover}>
       <div className="flipper">
 
@@ -97,7 +111,7 @@ class App extends Component {
           <div className="icon">
             <button
               type="button"
-              className="btn"
+              className="btn btnsound"
               aria-label="Play Sound"
               onClick={() => this.setState({ playSound: Sound.status.PLAYING })}
             >
@@ -122,11 +136,11 @@ class App extends Component {
             <div className="icon">
               <button
                 type="button"
-                className="btn"
+                className="btn btnflip"
                 aria-label="Flip Card"
                 // onClick={this.handleChange}
                 // onClick={this.getLetter}
-                onClick={() => this.setState({ image: this.getLetter(), flip : this.handleClick() })}
+                onClick={() => this.setState({ flip : this.handleClick() })}
               >
                 <span className="fa fa-share"></span>
               </button>
@@ -139,7 +153,7 @@ class App extends Component {
           <div className="icon">
             <button
               type="button"
-              className="btn"
+              className="btn btnsound"
               aria-label="Play Sound"
               onClick={() => this.setState({ playSound: Sound.status.PLAYING })}
             >
@@ -151,24 +165,19 @@ class App extends Component {
             >
               
             </Sound>
-          
           </div>
+          <div className="only-letter">
             <h1 className={this.case} >{this.letter}</h1>
-            <img
-              className="card-img"
-              // src={this.state.image}
-              src={this.image}
-              alt={this.word}
-            />
-            <h2 className={this.case} >{this.word}</h2>
+            </div>
+            
             <div className="icon">
               <button
                 type="button"
-                className="btn"
+                className="btn btnflip"
                 aria-label="Flip Card"
                 // onClick={this.handleChange}
                 // onClick={this.getLetter}
-                onClick={() => this.setState({ image: this.getLetter(), flip : this.handleClick() })}
+                onClick={() => this.setState({ flip : this.handleClick() })}
               >
                 <span className="fa fa-share"></span>
               </button>
