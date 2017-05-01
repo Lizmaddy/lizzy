@@ -46,22 +46,13 @@ class App extends Component {
       }
 
       this.setState({ iover: show });
-      console.log('state: ' + this.state.iover);
+      this.setState({ playSound: Sound.status.STOPPED })
+      // console.log('state: ' + this.state.playSound);
       event.preventDefault()
       
-      // this.value = 0;
-      // if (this.value%2 == 0) {
-      //   this.flip = true;
-      //   this.value = 1;
-      // }
-      // else {
-      //   this.flip = false;
-      //   this.value = 0;
-      // }
-      // console.log('Hi' + this.flip + 'val:' + this.value);
-      // return this.flip;
   }
   getLetter (event) {
+    this.setState({ playSound: Sound.status.STOPPED })
     let ranNum = Math.floor(Math.random() * (26));
     // console.log(ranNum);
     // let num = Math.floor(Math.random() * this.state['array'].length);
