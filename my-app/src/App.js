@@ -39,7 +39,7 @@ class App extends Component {
     let show = this.state.iover;
       let index = show.indexOf('show');
 
-      if (index != -1) {
+      if (index !== -1) {
           show = 'flip-container hide';
       } else {
           show = 'flip-container show';
@@ -103,7 +103,7 @@ class App extends Component {
         </button>
         </p>
       </div>
-      <div className= {this.state.iover}>
+      <div className={this.state.iover}>
       <div className="flipper">
 
         <div className="card-container front">
