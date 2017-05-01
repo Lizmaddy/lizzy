@@ -116,7 +116,9 @@ class App extends Component {
             </Sound>
           
           </div>
-            <h1 className={this.case} >{this.letter}</h1>
+           <div className={this.case}>
+              <span className="h1" >{this.letter}</span>
+            </div>
             <img
               className="card-img"
               // src={this.state.image}
@@ -157,9 +159,9 @@ class App extends Component {
               
             </Sound>
           </div>
-          <div className="only-letter">
-            <h1 className={this.case} >{this.letter}</h1>
-            </div>
+          <div className="h1 only-letter">
+            <span className={this.case} >{this.letter}</span>
+          </div>
             
             <div className="icon">
               <button

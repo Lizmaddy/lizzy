@@ -1,10 +1,11 @@
-h1 {
+.h1 {
   font-size: 9em;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1;
   position: relative;
   top: 0em;
+  /*vertical-align: super;*/
 }
 
 h2 {
@@ -116,9 +117,9 @@ h2 {
 .only-letter {
   height: 100%;
   /*text-decoration: underline overline line-through;*/
-  font-size: 3em;
+  font-size: 23em;
   position: relative;
-  top: 1.3em;
+  top: .25em;
   border-top: solid thin #6f6741;
   border-bottom: solid thin #6f6741;
 }
