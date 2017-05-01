@@ -17,6 +17,7 @@ class App extends Component {
 
     this.state = {
       playSound: Sound.status.STOPPED,
+      iover: 'flip-container hide',
     };
   }
 
@@ -25,6 +26,7 @@ class App extends Component {
   //     array: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
   //   };
   // }
+
   getUpperLower() {
     let letterCase = Math.floor(Math.random() * (4));
     if ( letterCase === 3 ) {
@@ -32,6 +34,32 @@ class App extends Component {
          return 'upper';
       } 
     return 'lower';
+  }
+  handleClick() {
+    let show = this.state.iover;
+      let index = show.indexOf('show');
+
+      if (index != -1) {
+          show = 'flip-container hide';
+      } else {
+          show = 'flip-container show';
+      }
+
+      this.setState({ iover: show });
+      console.log('state: ' + this.state.iover);
+      event.preventDefault()
+      
+      // this.value = 0;
+      // if (this.value%2 == 0) {
+      //   this.flip = true;
+      //   this.value = 1;
+      // }
+      // else {
+      //   this.flip = false;
+      //   this.value = 0;
+      // }
+      // console.log('Hi' + this.flip + 'val:' + this.value);
+      // return this.flip;
   }
   getLetter (event) {
     let ranNum = Math.floor(Math.random() * (26));
@@ -52,7 +80,7 @@ class App extends Component {
         this.case = 'lower';
     }
     // console.log(this.case);
-
+    // this.handleClick();
 
     return this.image, this.soundFile, this.letter, this.word, this.case;
   }
@@ -61,8 +89,11 @@ class App extends Component {
     // let image = this.getLetter(); 
     return (
       <div className="App">
-        <div className="card-container flip-container">
-          <div className="card flipper">
+      <div className= {this.state.iover}>
+      <div className="flipper">
+
+        <div className="card-container front">
+          <div className="card">
           <div className="icon">
             <button
               type="button"
@@ -95,14 +126,59 @@ class App extends Component {
                 aria-label="Flip Card"
                 // onClick={this.handleChange}
                 // onClick={this.getLetter}
-                onClick={() => this.setState({ image: this.getLetter() })}
+                onClick={() => this.setState({ image: this.getLetter(), flip : this.handleClick() })}
               >
                 <span className="fa fa-share"></span>
               </button>
             </div>
           </div>
-          
         </div>
+
+        <div className="card-container back">
+          <div className="card">
+          <div className="icon">
+            <button
+              type="button"
+              className="btn"
+              aria-label="Play Sound"
+              onClick={() => this.setState({ playSound: Sound.status.PLAYING })}
+            >
+              <span className="fa fa-volume-up"></span>
+            </button>
+            <Sound 
+              url={this.soundFile}
+              playStatus={this.state.playSound}       
+            >
+              
+            </Sound>
+          
+          </div>
+            <h1 className={this.case} >{this.letter}</h1>
+            <img
+              className="card-img"
+              // src={this.state.image}
+              src={this.image}
+              alt={this.word}
+            />
+            <h2 className={this.case} >{this.word}</h2>
+            <div className="icon">
+              <button
+                type="button"
+                className="btn"
+                aria-label="Flip Card"
+                // onClick={this.handleChange}
+                // onClick={this.getLetter}
+                onClick={() => this.setState({ image: this.getLetter(), flip : this.handleClick() })}
+              >
+                <span className="fa fa-share"></span>
+              </button>
+            </div>
+          </div> 
+        </div>
+
+      </div>
+      </div>
+
       </div>
     );
   }
